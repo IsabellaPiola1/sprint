@@ -1,0 +1,93 @@
+.infos1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+
+.conteiner1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #DAC3E8;
+    height: 100%;
+    width: 320px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: -31px 28px 39px 5px rgba(84, 59, 133, 0.68);
+}
+
+.linha {
+    border: 0.5px solid rgba(84, 59, 133, 0.68);
+    width: 300px;
+}
+
+.linhaMenor {
+    border: 0.5px dotted rgba(84, 59, 133, 0.68);
+    width: 150px;
+}
+
+.conteiner1 button {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.conteiner1 button:hover {
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #DAC3E8, 0 0 30px #DAC3E8, 0 0 40px #DAC3E8, 0 0 55px #DAC3E8, 0 0 75px #DAC3E8, 2px 2px 2px rgba(138, 91, 206, 0);
+}
+
+.conteiner1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    transition: 0.5s ease-in-out;
+}
+
+.conteiner1 a:hover {
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #DAC3E8, 0 0 30px #DAC3E8, 0 0 40px #DAC3E8, 0 0 55px #DAC3E8, 0 0 75px #DAC3E8, 2px 2px 2px rgba(138, 91, 206, 0);
+}
+
+.conteiner1 p,
+h3,
+h4 {
+    padding: 10px 0;
+}
+
+.pesquisa {
+    background-color: #DAC3E8;
+    border-radius: 15px;
+    width: 300px;
+    margin: 50px auto 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: -20px 20px 39px 5px rgba(84, 59, 133, 0.68);
+}
+
+.txtBusca {
+    background-color: transparent;
+    padding: 10px;
+    font-style: italic;
+    font-size: 16px;
+    border: none;
+    height: 46px;
+    width: 260px;
+}
+
+.txtBusca:focus {
+    outline: none;
+}
+
+#lupa{
+    margin: auto;
+    padding-right: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+#lupa:hover{
+    color: rgba(84, 59, 133, 0.68);
+}

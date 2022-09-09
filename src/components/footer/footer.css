@@ -1,0 +1,34 @@
+.rodape {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes {
+    width: 160px;
+    display: flex;
+    list-style: none;
+    letter-spacing: 20px;
+    padding: 20px 0 40px;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #E4D4ED;
+}
+
+.siteMap {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.creditos {
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.creditos>a>p {
+    text-align: start;
+}

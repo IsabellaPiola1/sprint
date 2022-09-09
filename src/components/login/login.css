@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+#active button {
+    background-color: #DAC3E8;
+    color: #000000;
+}
+
+.conteiner {
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #DAC3E8;
+    margin: 120px auto;
+    padding: 40px;
+    background: #DAC3E8;
+    border-radius: 50px;
+    box-shadow: -31px 28px 39px 5px rgba(84, 59, 133, 0.68);
+}
+
+.conteiner fieldset {
+    border: none;
+}
+
+.conteiner legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.conteiner label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.conteiner input,
+.conteiner textarea,
+.conteiner select {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #E4D4ED;
+    color: #000000;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+}
+
+.conteiner select {
+    -webkit-appearance: menulist-button;
+    height: 35px;
+}
+
+.conteiner .number {
+    background: #B185DB;
+    color: #000000;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.conteiner input[type="submit"] {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #7251B5;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.conteiner input[type="submit"]:hover{
+    background: #B185DB;
+    color: #000000;
+}
